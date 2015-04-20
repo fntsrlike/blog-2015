@@ -2,8 +2,8 @@
 title: 深藏若虛
 email: fntsrlike+blog@gmail.com
 description: 史記·卷六十三·老子韓非傳：「良賈深藏若虛，君子盛德，容貌若愚。」
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: http://blog.fntsr.tw
+baseurl: "/jekyll/" # the subpath of your site, e.g. /blog/
+url: http://blog.fntsr.tw/jekyll
 twitter_username: fntsrlike
 github_username:  fntsrlike
 
@@ -12,3 +12,4 @@ markdown: kramdown
 
 # Advanced
 timezone: Asia/Taipei
+highlighter: pygments
