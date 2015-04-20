@@ -23,7 +23,7 @@ Docker 1.3 在 2014-10-16 釋出。其中，在方便性上最讓人注目的更
 
 下圖是在 OS X 上，使用 boot2docker 建立 data volume 的示意圖，希望能幫助各位了解運作原理。
 
-![](images/posts/2014-10-31-use-docker-data-volume-on-os-x-001.png){:width="512px" height="384px"}.
+![]({{ site.url }}/images/posts/2014-10-31-use-docker-data-volume-on-os-x-001.png){:width="512px" height="384px"}.
 
 
 # 前置作業

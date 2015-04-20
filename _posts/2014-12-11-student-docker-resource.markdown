@@ -18,57 +18,57 @@ Docker 是最近正夯的輕量化虛擬技術，也是我希望能多多推廣�
 # 註冊 DigitalOcean
 開啟 [DigitalOcean](http://goo.gl/P9rn2B) 的首頁，然後在中間的表單填上您的 電子郵件與密碼。
 
-![](images/posts/2014-12-11-student-docker-resource/1_1.png){:width="512px" height="384px"}.
+![]({{ site.url }}/images/posts/2014-12-11-student-docker-resource/1_1.png){:width="512px" height="384px"}.
 
 送出表單後，就會被引導到使用者後台。
 
-![](images/posts/2014-12-11-student-docker-resource/1_2.png){:width="512px" height="384px"}.
+![]({{ site.url }}/images/posts/2014-12-11-student-docker-resource/1_2.png){:width="512px" height="384px"}.
 
 然後我們要去收信，驗證我們的電子郵件。
 
-![](images/posts/2014-12-11-student-docker-resource/1_3.png){:width="512px" height="384px"}.
+![]({{ site.url }}/images/posts/2014-12-11-student-docker-resource/1_3.png){:width="512px" height="384px"}.
 
 如果你是透過上面的連結申請，會因為是透過 referral code link 申請的使用者，而收到另一封信，說您已經得到 10 美金的額度。
 
-![](images/posts/2014-12-11-student-docker-resource/1_4.png){:width="512px" height="384px"}.
+![]({{ site.url }}/images/posts/2014-12-11-student-docker-resource/1_4.png){:width="512px" height="384px"}.
 
 驗證後，您就會被轉到[使用者付款頁面](https://cloud.digitalocean.com/user_payment_profiles)，請你填寫您的信用卡資訊去啟用服務。若是沒有信用卡，亦可請朋友透過 Paypal 幫忙轉五美金的一次性付款去啟用。
 
-![](images/posts/2014-12-11-student-docker-resource/1_5.png){:width="512px" height="384px"}.
+![]({{ site.url }}/images/posts/2014-12-11-student-docker-resource/1_5.png){:width="512px" height="384px"}.
 
 # 申請 Github 的 Student Developer Pack
 若是還沒有註冊 [Github]()，請先去註冊一個帳號，然後登入。
 
 接著到 [Github Education]() 的 [Student Developer Pack]() 網頁，點選頁面中間的「Get Your Pack」，或是右上角的 Request a discount。
 
-![](images/posts/2014-12-11-student-docker-resource/2_1.png){:width="512px" height="384px"}.
+![]({{ site.url }}/images/posts/2014-12-11-student-docker-resource/2_1.png){:width="512px" height="384px"}.
 
 點選後會出現表單，在步驟一，只需要選取你的身份和你要把這個優惠用在使用者帳號還是組織帳號。這裏只需選取 Student 和 Individual account 即可。
 
-![](images/posts/2014-12-11-student-docker-resource/2_2.png){:width="512px" height="384px"}.
+![]({{ site.url }}/images/posts/2014-12-11-student-docker-resource/2_2.png){:width="512px" height="384px"}.
 
 步驟二裡，你填寫你的名稱、學校信箱、學校名稱、畢業年份以及你打算怎麼使用Github。這裏都要填寫英文，可去學校首頁找找學校的英文名稱。比較重要的是選擇你的學校信箱，若是你還沒通過這類驗證，你可以點選「[add and verify it](https://github.com/settings/emails)」，去個人後台驗證你的學校信箱。至於如何使用，你就照實填寫就好，像我就是寫 Practice coding and git。
 
-![](images/posts/2014-12-11-student-docker-resource/2_3.png){:width="512px" height="384px"}.
+![]({{ site.url }}/images/posts/2014-12-11-student-docker-resource/2_3.png){:width="512px" height="384px"}.
 
 等認證通過後，到 Student Developer Pack 頁面重新整理，或是再次點選「Get Your Pack」，就可以看到頁面原本的「Get Your Pack」消失了，而改成一個以黃底黑字的「My Pack」。
 
-![](images/posts/2014-12-11-student-docker-resource/2_4.png){:width="512px" height="384px"}.
+![]({{ site.url }}/images/posts/2014-12-11-student-docker-resource/2_4.png){:width="512px" height="384px"}.
 
 然後我們在下方服務中，尋找 DigitalOcean 。你會看到旁邊就會有你的 Promo Code 囉。
 
-![](images/posts/2014-12-11-student-docker-resource/2_5.png){:width="512px" height="384px"}.
+![]({{ site.url }}/images/posts/2014-12-11-student-docker-resource/2_5.png){:width="512px" height="384px"}.
 
 將 Code 複製下來，然後來到[使用者付款頁面](https://cloud.digitalocean.com/user_payment_profiles)，看到 Promo Code 的部分，將我們 Code 貼上，他就會自動認證。
 
-![](images/posts/2014-12-11-student-docker-resource/2_6.png){:width="512px" height="384px"}.
+![]({{ site.url }}/images/posts/2014-12-11-student-docker-resource/2_6.png){:width="512px" height="384px"}.
 
 認證成功後，來到 [Billing](https://cloud.digitalocean.com/billing) 頁面，你就會發現你多了 100 美金的額度，夠讓你使用一陣子。
 
 # 建立 VPS
 接著點選左邊導覽列的 [Create](https://cloud.digitalocean.com/droplets/new) ，我們要來開始建立我們 VPS 囉！
 
-![](images/posts/2014-12-11-student-docker-resource/3_1.png){:width="512px" height="384px"}.
+![]({{ site.url }}/images/posts/2014-12-11-student-docker-resource/3_1.png){:width="512px" height="384px"}.
 
 #### Droplet Hostname
 這裏是填寫你的 VPS 名稱，看你習慣怎麼命名。我自己是把我的 VPS 用魔戒系列人物命名啦。=P
@@ -76,12 +76,12 @@ Docker 是最近正夯的輕量化虛擬技術，也是我希望能多多推廣�
 #### Select Size
 選擇 VPS 的使用方案，一般來說只需使用 5 美金的方案即可。
 
-![](images/posts/2014-12-11-student-docker-resource/3_2.png){:width="512px" height="384px"}.
+![]({{ site.url }}/images/posts/2014-12-11-student-docker-resource/3_2.png){:width="512px" height="384px"}.
 
 #### Select Region
 選擇地區，也就是選擇 VPS 的機房所在。為了保持較良好的連線速度，選擇位在亞洲的新加坡機房是比較好的。
 
-![](images/posts/2014-12-11-student-docker-resource/3_3.png){:width="512px" height="384px"}.
+![]({{ site.url }}/images/posts/2014-12-11-student-docker-resource/3_3.png){:width="512px" height="384px"}.
 
 #### Available Settings
 這裏目前不需要設定。若是懂項目意思的可以自行斟酌。
@@ -89,7 +89,7 @@ Docker 是最近正夯的輕量化虛擬技術，也是我希望能多多推廣�
 #### Select Image
 選擇你 VPS 所使用的初始映像檔，並分別有五個分頁。為了讓我們能快速使用 Docker ，我們選擇 Applications 分頁的 Docker 1.3.2 on 14.04 的映像檔。DigitalOcean 會在建立 VPS 時，安裝 Ubuntu 14.04 的作業系統，並在裡面裝好 Docker！
 
-![](images/posts/2014-12-11-student-docker-resource/3_4.png){:width="512px" height="384px"}.
+![]({{ site.url }}/images/posts/2014-12-11-student-docker-resource/3_4.png){:width="512px" height="384px"}.
 
 #### Add SSH Keys
 增加 SSH 金鑰。這是選填項目，但是基於安全性考量，我極度建議你使用。關於相關說明，可以Google 「[SSH 登入](https://www.google.com.tw/webhp?#newwindow=1&q=SSH+%E7%99%BB%E5%85%A5)」去學習。
@@ -97,12 +97,12 @@ Docker 是最近正夯的輕量化虛擬技術，也是我希望能多多推廣�
 # 連線與測試
 當 VPS 建立完成後，進到 VPS 狀態頁面，在上方就可以看到自己的 IP。
 
-![](images/posts/2014-12-11-student-docker-resource/4_1.png){:width="512px" height="384px"}.
+![]({{ site.url }}/images/posts/2014-12-11-student-docker-resource/4_1.png){:width="512px" height="384px"}.
 
 因為我們前面有設定 SSH 登入，所以就可以不用打密碼，直接透過 terminal 下 SSH 連線到 VPS。
 
-![](images/posts/2014-12-11-student-docker-resource/4_2.png){:width="512px" height="384px"}.
+![]({{ site.url }}/images/posts/2014-12-11-student-docker-resource/4_2.png){:width="512px" height="384px"}.
 
 最後，在 terminal 輸入`docker version`的指令，若有安裝成功，就會顯示 Docker 的版本資訊囉！
 
-![](images/posts/2014-12-11-student-docker-resource/4_3.png){:width="512px" height="384px"}.
+![]({{ site.url }}/images/posts/2014-12-11-student-docker-resource/4_3.png){:width="512px" height="384px"}.

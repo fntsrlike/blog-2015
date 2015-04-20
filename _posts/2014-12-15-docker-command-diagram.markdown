@@ -9,7 +9,7 @@ categories:
 Docker 指令示意圖
 ---------------
 
-![](images/posts/2014-12-15-docker-command-diagram/1_1.png?1418747640){:width="512px" height="384px"}.
+![]({{ site.url }}/images/posts/2014-12-15-docker-command-diagram/1_1.png?1418747640){:width="512px" height="384px"}.
 
 看到《Docker —— 從入門到實踐­》正體中文版[附錄一：命令查詢](http://philipzheng.gitbooks.io/docker_practice/content/appendix_command/README.html)裏有「一張圖總結 Docker 的命令」的圖，一時興起，就嘗試重畫一張圖，把所有指令都排進去。
 
