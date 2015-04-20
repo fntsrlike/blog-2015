@@ -23,3 +23,5 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-help]: https://github.com/jekyll/jekyll-help
+
+![](http://blog.fntsr.tw/images/posts/2014-12-15-docker-command-diagram/1_1.png?1418747640 =10x)
