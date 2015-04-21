@@ -11,11 +11,11 @@ Docker 無法解析 github.com
 
 在 Ubuntu 環境下，使用 Docker 架設 Discourse 時遇到了問題，錯誤訊息如下：
 
-```
+{% highlight bash %}
 fatal: unable to access 'https://github.com/SamSaffron/pups.git/': Could not resolve host: github.com
 fb4e120a8b107f0ec1e07b3e21a3a1f31e3a5879d30da65242e0333b30533efa
 FAILED TO BOOTSTRAP
-```
+{% endhighlight %}
 
 這個問題的是 DNS 相關的錯誤，我們只要幫 Docker 指定 DNS Server 即可。解決辦法依照你安裝 Docker 的方式而異。
 
@@ -25,29 +25,29 @@ FAILED TO BOOTSTRAP
 
 首先，打開 docker 的設定檔。
 
-```bash
+{% highlight bash %}
 $ vim /etc/default/docker
-```
+{% endhighlight %}
 
 然後，將下面這行取消註解。
 
-```bash
+{% highlight bash %}
 DOCKER_OPTS="--dns 8.8.8.8 --dns 8.8.4.4"
-```
+{% endhighlight %}
 
 最後，重啟 Docker Server
 
-```bash
+{% highlight bash %}
 $ sudo service docker restart
-```
+{% endhighlight %}
 
 ### via Binary
 
 如果你是透過二進位檔案執行 Docker server，你只需在啟動 Docker daemon 時，加上 DNS 參數即可。如下：
 
-```bash
+{% highlight bash %}
 $ sudo docker -d -D --dns 8.8.8.8 --dns 8.8.4.4 &
-```
+{% endhighlight %}
 
 
 `8.8.8.8`和`8.8.4.4`都是 Google 的 DNS，你也可以增修你喜歡的 DNS Server。

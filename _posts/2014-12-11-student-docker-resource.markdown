@@ -15,7 +15,7 @@ Docker 是最近正夯的輕量化虛擬技術，也是我希望能多多推廣�
 
 <!-- more -->
 
-# 註冊 DigitalOcean
+## 註冊 DigitalOcean
 開啟 [DigitalOcean](http://goo.gl/P9rn2B) 的首頁，然後在中間的表單填上您的 電子郵件與密碼。
 
 ![]({{ site.url }}/images/posts/2014-12-11-student-docker-resource/1_1.png){:width="512px" height="384px"}.
@@ -36,7 +36,7 @@ Docker 是最近正夯的輕量化虛擬技術，也是我希望能多多推廣�
 
 ![]({{ site.url }}/images/posts/2014-12-11-student-docker-resource/1_5.png){:width="512px" height="384px"}.
 
-# 申請 Github 的 Student Developer Pack
+## 申請 Github 的 Student Developer Pack
 若是還沒有註冊 [Github]()，請先去註冊一個帳號，然後登入。
 
 接著到 [Github Education]() 的 [Student Developer Pack]() 網頁，點選頁面中間的「Get Your Pack」，或是右上角的 Request a discount。
@@ -65,7 +65,7 @@ Docker 是最近正夯的輕量化虛擬技術，也是我希望能多多推廣�
 
 認證成功後，來到 [Billing](https://cloud.digitalocean.com/billing) 頁面，你就會發現你多了 100 美金的額度，夠讓你使用一陣子。
 
-# 建立 VPS
+## 建立 VPS
 接著點選左邊導覽列的 [Create](https://cloud.digitalocean.com/droplets/new) ，我們要來開始建立我們 VPS 囉！
 
 ![]({{ site.url }}/images/posts/2014-12-11-student-docker-resource/3_1.png){:width="512px" height="384px"}.
@@ -94,7 +94,7 @@ Docker 是最近正夯的輕量化虛擬技術，也是我希望能多多推廣�
 #### Add SSH Keys
 增加 SSH 金鑰。這是選填項目，但是基於安全性考量，我極度建議你使用。關於相關說明，可以Google 「[SSH 登入](https://www.google.com.tw/webhp?#newwindow=1&q=SSH+%E7%99%BB%E5%85%A5)」去學習。
 
-# 連線與測試
+## 連線與測試
 當 VPS 建立完成後，進到 VPS 狀態頁面，在上方就可以看到自己的 IP。
 
 ![]({{ site.url }}/images/posts/2014-12-11-student-docker-resource/4_1.png){:width="512px" height="384px"}.

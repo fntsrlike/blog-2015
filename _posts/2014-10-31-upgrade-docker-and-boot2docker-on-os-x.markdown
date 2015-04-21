@@ -15,9 +15,9 @@ categories: docker
 
 ## Step1: Turn Off Boot2docker
 
-```bash
+{% highlight bash %}
 $ boot2docker stop
-```
+{% endhighlight %}
 
 ## Step2: Upgrade Boot2docker
 
@@ -25,11 +25,11 @@ $ boot2docker stop
 
 #### Homebrew
 
-```bash
+{% highlight bash %}
 $ brew update
 $ brew upgrade docker
 $ brew upgrade boot2docker
-```
+{% endhighlight %}
 
 #### Packge Installer
 
@@ -44,25 +44,25 @@ $ brew upgrade boot2docker
 官網是說如果你是 `0.11.1-pre1` 之前的版本，建議刪除原有映像檔，但是這已經是很早之前的版本了。所以除非有什麼無法升級的意外，才需要「刪除原有映像檔」的方式更新。
 
 #### 正常程序
-```bash
+{% highlight bash %}
 $ boot2docker stop
 $ boot2docker download
 $ boot2docker up
-```
+{% endhighlight %}
 
 #### 刪除原有映像檔
-```bash
+{% highlight bash %}
 $ boot2docker stop
 $ boot2docker delete     // 注意：本指令會刪除現有的VM映像檔
 $ boot2docker download
 $ boot2docker init
 $ boot2docker up
-```
+{% endhighlight %}
 
 ## Step4: Check Version
 確認你的版本是否都為最新版了。寫本文時最新版是1.3.0。
 
-```bash
+{% highlight bash %}
 $ boot2docker version
 Boot2Docker-cli version: v1.3.0
 Git commit: deafc19
@@ -77,7 +77,7 @@ Server version: 1.3.1
 Server API version: 1.15
 Go version (server): go1.3.3
 Git commit (server): 4e9bbfa
-```
+{% endhighlight %}
 
 ## Reference
 1. [Installing Docker on Mac OS X #Upgrading](http://docs.docker.com/installation/mac/#upgrading)
