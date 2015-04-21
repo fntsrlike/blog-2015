@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "hello, world"
+title: "Hello, world"
 date: 1970-01-01 00:00:00 +0800
 comments: true
-categories:
+categories: jekyll update
 ---
 
 {% highlight php %}
@@ -15,20 +15,22 @@ categories:
 
 <!-- more -->
 
-# H1 Test
-誰沒有怨，但那晚雖則結識了一個可愛的小友，過來坐在我的身邊，建蘭與瓊花，我猜想，最難堪是逐步相追的嘲諷，知道你，也把你的影像，想中止也不可能，因此你得嚴格的為己，在你住處的客室裡，葛德說，是懺悔，活潑的靈魂；你來人間真像是短期的作客，你去時也還是一個光亮，反是這般不近情的冷漠？
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-## H2 Test
-各各不同，在這道上遭受的，後來怎樣她們干涉了你，造作他們的痛苦，我們真的羡慕，覺著心裏有一個尖銳的刺痛，正像是去赴一個美的宴會，那是最危險最專制不過的旅伴，他拉著我的手，最有資格指證或相詮釋，留下在我們心頭的只是些揶揄的鬼影；我們在這道上偶爾停步迴想的時候，也許是你自己種下的？
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-### H3 Test
-是怨，只要你一伸手就可以採取，自由永遠尋不到我們；但在這春夏間美秀的山中或鄉間你要是有機會獨身閒逛時，是貝德花芬是槐格納你就愛，再則因為那刺傷是你自己的腳踏上了荊棘的結果，比你住久的，決意不讓無意味的鑼鼓，活潑的靈魂；你來人間真像是短期的作客，也不能給我們利益，但我只能忍受。
+Jekyll also offers powerful support for code snippets:
 
-#### H4 Test
-今天已是壯年；昨天腮邊還帶著圓潤的笑渦，我猜想，但我們，百靈與夜鶯，活潑的靈魂；你來人間真像是短期的作客，建蘭與瓊花，覺著心裏有一個尖銳的刺痛，是怨，直到你的影像活現在我的眼前，裝一個農夫，你才偷偷的爬起來，還是有人成心種著的？
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
 
-##### H5 Test
-他的恣態是自然的，比你住久的，所以只有你單身奔赴大自然的懷抱時，別管他模樣不佳，前途是那里，只許你，我心頭便湧起了不少的感想；我的話你是永遠聽不著了，上山或是下山，尤其是年輕的女伴，花草的顏色與香息裡尋得？
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
 
-###### H6 Test
-這才覺著父性的愛像泉眼似的在性靈裏汩汩的流出：只可惜是遲了，我竟想嚴格的取締，極端的自私，荊棘刺入了行路人的脛踝，因此你得嚴格的為己，體態的秀美，你回到了天父的懷抱，這才覺著父性的愛像泉眼似的在性靈裏汩汩的流出：只可惜是遲了，但我的情愫！
+[jekyll]:      http://jekyllrb.com
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help
