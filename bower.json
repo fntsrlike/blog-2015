@@ -1,0 +1,27 @@
+{
+  "name": "jekyll",
+  "version": "0.0.1",
+  "authors": [
+    "Fntsrlike <fntsrlike@gmail.com>"
+  ],
+  "description": "Use bower to manage jekyll assets",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "bower",
+    "jekyll"
+  ],
+  "license": "MIT",
+  "homepage": "http://fntsr.tw/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Han": "~3.1.1"
+  }
+}

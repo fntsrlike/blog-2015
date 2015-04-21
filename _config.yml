@@ -13,3 +13,7 @@ markdown: kramdown
 # Advanced
 timezone: Asia/Taipei
 highlighter: pygments
+excerpt_separator: ""   # Workaround for http://blog.slaks.net/2013-08-09/jekyll-tag-was-never-closed
+
+# Assets
+vendor: /assets/vendor
