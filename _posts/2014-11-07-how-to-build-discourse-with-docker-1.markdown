@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "how to build Discourse with docker"
+title: "How to build Discourse with docker"
 date: 2014-11-07 15:15:59 +0800
 comments: true
 categories:
