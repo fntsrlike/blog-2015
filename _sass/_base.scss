@@ -64,7 +64,7 @@ figcaption {
  * Lists
  */
 ul, ol {
-    margin-left: $spacing-unit;
+    /* margin-left: $spacing-unit; */
 }
 
 li {
@@ -107,7 +107,7 @@ a {
 /**
  * Blockquotes
  */
-blockquote {
+blockquote:lang(en), blockquote:lang(en-us){
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;

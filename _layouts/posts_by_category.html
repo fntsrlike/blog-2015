@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{% for data_category in site.data.categories %}
+    {% if data_category.slug == page.category %}
+        {% assign category = data_category %}
+    {% endif %}
+{% endfor %}
+
+<header>
+  <h1 class="page-title">{{ category.name }}</h1>
+  <p class="page-description">{{category.description}}</p>
+</header>
+
+{% assign posts = site.categories[page.category] %}
+{% include archives.html %}

@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<header>
+  <h1 class="page-title">Tags</h1>
+  <p class="page-description">將文章以標籤做分類。</p>
+</header>
+
+<div class="page-content">
+  {% for tag in site.data.tags %}
+    {% assign posts = site.tags[tag.slug] %}
+    <div class="classification">
+      <h2>
+        <a href="{{ site.url }}tags/{{ tag.slug }}/">{{ tag.name }}</a>
+        <span class="post_number">({{ posts | size }})</span>
+      </h2>
+      <p>{{ tag.description }}</p>
+    </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{% for data_tag in site.data.tags %}
+    {% if data_tag.slug == page.tag %}
+        {% assign tag = data_tag %}
+    {% endif %}
+{% endfor %}
+
+<header>
+  <h1 class="page-title">{{ tag.name }}</h1>
+  <p class="page-description">{{tag.description}}</p>
+</header>
+
+{% assign posts = site.tags[page.tag] %}
+{% include archives.html %}

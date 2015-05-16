@@ -161,8 +161,23 @@
 /**
  * Page content
  */
+.page-title {
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-bottom: 10px;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+
+.page-description {
+    font-size: .85em;
+    color: rgba(100, 100, 100, 0.9);
+}
+
 .page-content {
-    padding: $spacing-unit 0;
+    padding: 15px 0 $spacing-unit 0;
 }
 
 .page-heading {

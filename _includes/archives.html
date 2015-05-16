@@ -1,0 +1,9 @@
+<div class="archives">
+  {% if posts %}
+    {% for post in posts %}
+      {% include archive.html %}
+    {% endfor %}
+  {% else %}
+    <p>There are no posts in this category.</p>
+  {% endif %}
+</div>

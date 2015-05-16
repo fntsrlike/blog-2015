@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<header>
+  <h1 class="page-title">Categories</h1>
+  <p class="page-description">將文章以領域或情境做分類。</p>
+</header>
+
+<div class="page-content">
+  {% for category in site.data.categories %}
+    {% assign posts = site.categories[category.slug] %}
+    <div class="classification">
+      <h2>
+        <a href="{{ site.url }}categories/{{ category.slug }}/">{{ category.name }}</a>
+        <span class="post_number">({{ posts | size }})</span>
+      </h2>
+      <p>{{ category.description }}</p>
+    </div>
+  {% endfor %}
+</div>
