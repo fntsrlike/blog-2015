@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<style type="text/css">
+    #blog-archives article {
+      padding-left: 4.5em;
+      padding-bottom: .7em;
+    }
+</style>
+
+<h2>Articles</h2>
+
+{% assign posts = site.posts %}
+
+{% include archives.html %}
