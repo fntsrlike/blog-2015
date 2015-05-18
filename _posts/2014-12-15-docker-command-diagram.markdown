@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Docker Command Diagram"
+subtitle: "Docker 指令示意圖"
 date: 2014-12-15 00:45:26 +0800
 comments: true
-categories:
+categories: [it]
+tags: [docker, web]
 ---
-
-Docker 指令示意圖
----------------
 
 ![]({{ site.url }}/images/posts/2014-12-15-docker-command-diagram/1_1.png?1418747640){:width="512px" height="384px"}.
 

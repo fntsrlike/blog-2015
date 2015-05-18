@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Docker can't resolve github.com"
+subtitle: "Docker 無法解析 github.com"
 date: 2014-11-08 02:30:47 +0800
 comments: true
-categories: docker
+categories: [it]
+tags: [docker]
 ---
-
-Docker 無法解析 github.com
---------------------------
 
 在 Ubuntu 環境下，使用 Docker 架設 Discourse 時遇到了問題，錯誤訊息如下：
 

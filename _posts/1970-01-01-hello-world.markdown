@@ -3,7 +3,7 @@ layout: post
 title: "Hello, world"
 date: 1970-01-01 00:00:00 +0800
 comments: true
-categories: jekyll update
+categories: [general]
 ---
 
 {% highlight php %}

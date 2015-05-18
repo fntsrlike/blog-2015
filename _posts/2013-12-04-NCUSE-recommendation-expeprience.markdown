@@ -3,11 +3,9 @@ layout: post
 title: "國立中央大學軟體工程研究所推甄心得"
 date: 2013-12-04 16:37:45 +0800
 comments: true
-categories: Experience
+categories: [general]
 ---
 
-國立中央大學軟體工程研究所推甄心得
------
 本文採用CC授權 姓名標示─非商業性─禁止改作 3.0 台灣  http://goo.gl/TwbVOk
 
 ### Introduction

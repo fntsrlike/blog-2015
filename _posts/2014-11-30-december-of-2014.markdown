@@ -1,13 +1,11 @@
 ---
 layout: post
 title: "December of 2014"
+subtitle: "來到 2014 年的 12 月，半年回顧"
 date: 2014-11-30 23:58:05 +0800
 comments: true
-categories:
+categories: [general]
 ---
-
-來到 2014 年的 12 月，半年回顧
--------------------
 
 在 11 月的倒數三分鐘開始寫起了這篇文章，<br/>
 並在 12 月的第一天發表。<br/>

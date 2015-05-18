@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Let Students try Docker at DigtialOcean!"
+subtitle: "讓學生透過 DigitalOcean 嘗試 Docker！"
 date: 2014-12-11 01:20:58 +0800
 comments: true
-categories:
+categories: [it]
+tags: [docker]
 ---
-
-讓學生透過 DigitalOcean 嘗試 Docker！
------------------------------------
 
 Docker 是最近正夯的輕量化虛擬技術，也是我希望能多多推廣的。適逢最近要去[台科大程式設計社](http://ntustcoding.club/)演講，希望在演講時，聽眾也能在下方一起操作。但是一項技術在推廣時，第一個遇到的門檻就是安裝，為了避免在網路上已經很多教學文的安裝花費太多時間，所以希望能讓聽眾透過 VPS 去使用 Docker，所以寫了這邊文章去推廣這種方式。這樣既避免安裝的過程，也讓現場省下許多下載 Image 頻寬，避免網路爆炸。
 

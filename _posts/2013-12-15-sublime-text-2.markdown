@@ -3,10 +3,10 @@ layout: post
 title: "Sublime Text 2"
 date: 2013-12-15 15:03:12 +0800
 comments: true
-categories:
+categories: [it]
+tags: [editor]
 ---
 
-## Sublime Text 2
 ST2是我在Programming時必備的編輯器（Editor），從原本使用Notepad++跳槽到ST2，變回不去了，更遑論筆電換成Mac後，更是確定使用ST2作為我的開發利器（雖然也不是不會使用神器Vim，但是很多快捷鍵還不熟，通常只有在連線到server才會用ＸＤ）。而在處理MBA2013年中升級到OS X 10.9的續航問題而嘗試重新安裝OS後，便利用這機會，把我有關ST2的相關設定作為筆記寫成這篇文章囉。
 
 ## 為什麼使用ST2

@@ -1,13 +1,11 @@
 ---
 layout: post
 title: "Challenge of interdisciplinary learning"
+subtitle: "跨領域學習的挑戰"
 date: 2014-10-31 15:29:55 +0800
 comments: true
-categories: Feelings
+categories: [general]
 ---
-
-跨領域學習的挑戰
-------------------
 
 十月結束了，開學已有三旬半月，<br/>
 第一次感受到自己對新生活上，調試得極度不適應。<br/>
