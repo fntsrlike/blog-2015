@@ -2,8 +2,8 @@
 title: 深藏若虛
 email: fntsrlike+blog@gmail.com
 description: 史記·卷六十三·老子韓非傳：「良賈深藏若虛，君子盛德，容貌若愚。」
-baseurl: "/jekyll" # the subpath of your site, e.g. /blog/
-url: http://fntsr.tw/jekyll
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: http://jekyll.fntsr.tw/
 twitter_username: fntsrlike
 github_username:  fntsrlike
 
@@ -17,3 +17,4 @@ excerpt_separator: ""   # Workaround for http://blog.slaks.net/2013-08-09/jekyll
 
 # Assets
 vendor: /assets/vendor
+permalink: /articles/:year/:month/:day/:title/
