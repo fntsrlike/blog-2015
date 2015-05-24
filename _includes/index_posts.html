@@ -1,0 +1,14 @@
+{% if posts %}
+  {% for post in posts limit:3 %}
+    <article>
+      <time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>
+        {{ post.date | date: "%F"}}
+      </time>
+      <h3>
+        <a href="{{ post.url }}/" title="{{ post.subtitle }}">{{ post.title }}</a>
+      </h3>
+    </article>
+  {% endfor %}
+{% else %}
+  <p>There are no posts in this category.</p>
+{% endif %}

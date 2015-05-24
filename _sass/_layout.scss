@@ -2,8 +2,6 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -16,6 +14,7 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    padding-left: .3em;
 
     &,
     &:visited {
@@ -26,6 +25,7 @@
 .site-nav {
     float: right;
     line-height: 56px;
+    padding-right: 1em;
 
     .menu-icon {
         display: none;
@@ -92,13 +92,13 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
 
 .footer-heading {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
+    padding-left: .3em;
 }
 
 .contact-list,
