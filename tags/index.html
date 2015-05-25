@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-<header>
+<header class="header">
   <h1 class="page-title">Tags</h1>
   <p class="page-description">將文章以標籤做分類。</p>
 </header>
 
-<div class="page-content">
+<div class="page-content block">
   {% for tag in site.data.tags %}
     {% assign posts = site.tags[tag.slug] %}
     <div class="classification">

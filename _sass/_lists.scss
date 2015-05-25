@@ -1,4 +1,5 @@
 .classification {
+    margin-top: 1em;
 
     h2 {
         margin-bottom: 10px;
@@ -31,6 +32,11 @@
         margin-left: 4em;
         padding: 16px 0 0 72px;
         position: relative;
+        background: url('/images/archive_divider.png') bottom left repeat-x;
+
+        &:last-of-type  {
+            background: none;
+        }
 
         h3 {
             margin-bottom: 0;

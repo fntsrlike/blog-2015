@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="home">
-  <div class="column">
+  <div class="column block">
     {% for post in site.posts limit:1%}
       <div class="post">
         <h1><a href="{{ post.url }}/">{{ post.title }}</a></h1>
@@ -22,14 +22,14 @@ layout: default
     {% endfor %}
   </div>
   <div class="divider"></div>
-  <div class="column">
+  <div class="column block">
     <h2>General</h2>
     {% assign posts = site.categories["general"]%}
     <div class="index_posts">
       {% include index_posts.html %}
     </div>
   </div>
-  <div class="column">
+  <div class="column block">
     <h2>Information Technology</h2>
     {% assign posts = site.categories["it"]%}
     <div class="index_posts">

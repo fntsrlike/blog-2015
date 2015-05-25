@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-<header>
+<header class="header">
   <h1 class="page-title">Categories</h1>
   <p class="page-description">將文章以領域或情境做分類。</p>
 </header>
 
-<div class="page-content">
+<div class="page-content block">
   {% for category in site.data.categories %}
     {% assign posts = site.categories[category.slug] %}
     <div class="classification">

@@ -11,14 +11,21 @@ a[rel="full-article"] {
     transition: background-color 0.5s;
 }
 
-
-.column {
-    background: rgba(255,255,255,0.5);
+.block {
+    background: rgba(255,255,255,0.45);
     margin-bottom: 20px;
     padding: 5px 30px 20px;
-    box-shadow: silver 0 0 10px;
     border-radius: 5px;
+}
 
+.header {
+    background: rgba(255,255,255,0.3);
+    margin-bottom: 20px;
+    padding: 5px 30px;
+    border-radius: 10px;
+}
+
+.column {
     h1 {
         a {
             color: black;
