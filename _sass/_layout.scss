@@ -162,7 +162,6 @@
 }
 
 
-
 /**
  * Posts
  */
@@ -261,5 +260,23 @@
     img {
         margin-bottom: 1em;
         max-height: 256px;
+    }
+}
+
+
+.post-footer {
+    margin: 3em 0 0;
+    padding-top: .5em;
+    font-size: $small-font-size;
+    color: $grey-color;
+    border-top: 1px solid #BBB;
+    line-height: 16px;
+
+    .post-categories, .post-tags {
+        margin-right: 1.5em;
+    }
+
+    .post-social {
+        float: right;
     }
 }
