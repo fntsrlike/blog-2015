@@ -39,10 +39,8 @@ layout: default
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
+  {% if page.subtitle %}<h2 class="post-subtitle">{{page.subtitle}}</h2>{% endif %}
   <article class="post-content">
-    {% if page.subtitle %}
-      <h2>{{ page.subtitle }}</h2>
-    {% endif %}
     {{ content }}
   </article>
   <p id="post-meta">Posted {{ category_content }}{{ tags_content }}</p>
