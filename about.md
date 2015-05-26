@@ -1,11 +1,45 @@
 ---
 layout: page
 title: About
+description: 關於本站
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+### 深藏若虛
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+成語，取自<cite>《史記》・卷六十三・〈老子韓非傳〉</cite>：
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+<blockquote>
+......老子曰：「子所言者，其人與骨皆已朽矣，獨其言在耳。且君子得其時則駕，不得其時則蓬累而行。吾聞之，良賈深藏若虛，君子盛德容貌若愚。去子之驕氣與多欲，態色與淫志，是皆無益於子之身。吾所以告子，若是而已。」......
+</blockquote>
+
+原意為「深藏寶貨，不眩耀人前」，比喻「真才實學的人深藏不露」。以此為銘，字號<u>若虛</u>。期許自己能夠保持謙卑、虛心向學，並努力充實自我。絕不恃才傲物，並能夠以永如赤子一般的好奇心，探索世界。
+
+### 關於本站
+
+鑑於社交平台興起，部落格、論壇沒落，開始有著<em>知識黑洞</em>的趨勢，感到很多優良文章或想法因此被淹沒，很是可惜，於是開始有了自己編寫所見所聞、所想所思、所學所成的念頭，因此開始寫起了部落格。本站主要是編寫有關資訊技術類的文章，多以敝人自身所學為主。像是 Docker, Web, Software Engineering，希望能透過編寫文章加深自己的學習效果與印象，也期盼這些記錄在網路上的點滴，能夠帶給走在同條路上的同好一點幫助。
+
+
+### 關於我
+
+凌若虛，網路化名。
+也有朋友習慣稱呼「月湖」。
+
+二類轉三類、再讀歷史系、轉推軟工所，目前在<u>中大</u><u>物件導向實驗室</u>擔任菸酒生。
+喜歡跨領域議題，熱愛程式設計，信仰<em>工程師的美德即為懶</em>，熱衷開<em>坑</em>讓生活更便利。
+
+曾任<u>文華高中</u>電研社長、<u>興大</u>學生會資訊長、EZTABLE 暑期實習生。
+有幸在 PHPConf 2014、<u>台科大</u>程式設計社、<u>雲科大</u><u>運動休閒研究所</u>擔任過講座講師。
+
+更多關於我，歡迎到 [fntsr.tw](http://fntsr.tw/) 認識。
+
+
+### 感謝
+
+本站使用了許多網路上的資源，在此列表感謝。
+
+- [Github](https://github.com/) 提供空間。
+- [Cloudflare](https://www.cloudflare.com/) 提供網域託管。
+- [Jekyll](http://jekyllrb.com/) 產生靜態網站。
+- [Subtle Patterns](http://subtlepatterns.com/) 提供壁紙。
+- [漢字標準格式](http://css.hanzi.co/) 提供漢字排版框架。
