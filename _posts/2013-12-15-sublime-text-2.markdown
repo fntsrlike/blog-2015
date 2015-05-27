@@ -7,16 +7,19 @@ categories: [it]
 tags: [editor]
 ---
 
-ST2是我在Programming時必備的編輯器（Editor），從原本使用Notepad++跳槽到ST2，變回不去了，更遑論筆電換成Mac後，更是確定使用ST2作為我的開發利器（雖然也不是不會使用神器Vim，但是很多快捷鍵還不熟，通常只有在連線到server才會用ＸＤ）。而在處理MBA2013年中升級到OS X 10.9的續航問題而嘗試重新安裝OS後，便利用這機會，把我有關ST2的相關設定作為筆記寫成這篇文章囉。
+ST2 是我在 Programming 時必備的編輯器（Editor），從原本使用 Notepad++ 跳槽到 ST2，就回不去了，更遑論筆電換成 Mac 後，更是確定使用 ST2 作為我的開發利器（雖然也不是不會使用神器 Vim，但是很多快捷鍵還不熟，通常只有在連線到 server 才會用ＸＤ）。而在處理 MBA 2013 年中升級到 OS X 10.9的 續航問題而嘗試重新安裝 OS 後，便利用這機會，把我有關 ST2 的相關設定作為筆記寫成這篇文章囉。
 
 ## 為什麼使用ST2
+
 ### 我的理由：
-- **跨平台。**Linux, OS X, Windows皆有支援。
-- **配色佳。**尤愛預設的Monokai Color Scheme，深底色會讓眼睛舒適。
-- **套件多。**豐富的套件與簡單好用的套件管理器，讓我簡單擴充我想要的功能。
-- **自訂強。**非常彈性與強大的自訂設定，讓我打造屬於自己的編輯器。
+
+- **跨平台：**Linux, OS X, Windows 皆有支援。
+- **配色佳：**尤愛預設的Monokai Color Scheme，深底色會讓眼睛舒適。
+- **套件多：**豐富的套件與簡單好用的套件管理器，讓我簡單擴充我想要的功能。
+- **自訂強：**非常彈性與強大的自訂設定，讓我打造屬於自己的編輯器。
 
 ### ST設計原則：
+
 - 專注在文字與程式碼上，而不是讓人眼花撩亂的工具列；
 - 對話框訊息不使用晦澀難懂的文字；
 - 善用螢幕的每個空間，使全螢幕、多螢幕模式一起編輯檔案，儘可能很容易
@@ -25,11 +28,12 @@ ST2是我在Programming時必備的編輯器（Editor），從原本使用Notepa
 
 ## 下載
 下載頁面：[http://www.sublimetext.com/2](http://www.sublimetext.com/2)
-因為ST3在此時還在Beta，有些套件可能仍還未升級到可以支援ST3，所以本人還是繼續使用ST2。
+因為 ST3 在此時還在 Beta，有些套件可能仍還未升級到可以支援 ST3，所以本人還是繼續使用 ST2。
 
 ## 套件（Packages）
+
 ### 安裝套件管理器
-Ctrl + ` 呼叫 Console（控制台），然後輸入以下Script（腳本），並且送出：
+Ctrl + ` 呼叫 Console（控制台），然後輸入以下 Script（腳本），並且送出：
 
 {% highlight python%}
 import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')
@@ -38,17 +42,16 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_p
 如此一來就可以使用套件管理器了！
 
 ### 使用套件管理器
-使用command + shift + p 呼叫 Command Palette （命令調色盤）
-然後你可以使用下列指令來做套件管理：
+
+使用command + shift + p 呼叫 Command Palette。然後你可以使用下列指令來做套件管理：
+
 - Package Control: Install Package
 - Package Control: Litst Package
 - Package Control: Remove Package
 
-*（Command Palette的搜尋是只要輸入目標擁有的關鍵字即可搜尋到，所以通常我們只輸入後方的單字）*
-*（還有其他指令可輸入Package Control 查詢）*
+Command Palette的搜尋是只要輸入目標擁有的關鍵字即可搜尋到，所以通常我們只輸入後方的單字。還有其他指令可輸入Package Control 查詢
 
-*（以下套件名稱都是可以點擊的超連結，會連結該套件在Package Control的對應頁面。）*
-*（有些套件不是安裝就能使用，或是需要透過按鍵觸發，建議安裝前都閱讀一下他們自己的頁面哦。）*
+以下套件名稱都是可以點擊的超連結，會連結該套件在Package Control的對應頁面。有些套件不是安裝就能使用，或是需要透過按鍵觸發，建議安裝前都閱讀一下他們自己的頁面哦。
 
 ### 推薦套件
 
@@ -102,6 +105,8 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_p
 
 
 ## 參考資料
+<span/>
+
 - [Sublime Text 手冊](http://docs.sublimetext.tw/)
 - [Package Control](https://sublime.wbond.net/)
 - [KingKong Bruce記事 - 實用SUBLIME TEXT 2套件整理(2012/12)](http://blog.kkbruce.net/2012/12/useful-sublime-text-2-package-list.html#.Uq1ewGQW1B8)
@@ -110,7 +115,3 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_p
 - [ihower {blogging} - Sublime Text 資源整理](http://ihower.tw/blog/archives/7375)
 - [{euSpark*} U閃亮 - \[開發筆記\] 幫你的 Sublime Text 2安裝 LiveReload Plug-in](http://eugg.blogspot.tw/2013/05/sublime-text-2-livereload-plug-in.html)
 - [Sublime Text初始設置](http://rritw.com/a/JAVAbiancheng/ANT/20120910/220800.html)
-
-
-
-*<陸續更新中>*

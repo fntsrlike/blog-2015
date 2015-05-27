@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Docker Command Diagram"
-subtitle: "Docker 指令示意圖"
+title: "Docker 指令示意圖"
+subtitle: "Docker Command Diagram"
 date: 2014-12-15 00:45:26 +0800
 comments: true
 categories: [it]
 tags: [docker, web]
 ---
 
-![]({{ site.url }}/images/posts/2014-12-15-docker-command-diagram/1_1.png?1418747640){:width="512px" height="384px"}.
+[![][diagram]][diagram]{:target="_blank"}
 
 看到《Docker —— 從入門到實踐­》正體中文版[附錄一：命令查詢](http://philipzheng.gitbooks.io/docker_practice/content/appendix_command/README.html)裏有「一張圖總結 Docker 的命令」的圖，一時興起，就嘗試重畫一張圖，把所有指令都排進去。
 
@@ -17,8 +17,11 @@ tags: [docker, web]
 
 <!-- more -->
 
-## Update Log
+#### 更新紀錄
 
-### 2014-12-14
-- 經 @yorkoliu 指出，修正了 export 的關係。並將 Tar files 分成兩個部分。
-- 修改標題顏色。
+- 2014-12-14
+    - 經 @yorkoliu 指出，修正了 export 的關係。並將 Tar files 分成兩個部分。
+    - 修改標題顏色。
+
+
+[diagram]: {{ site.url }}/images/posts/2014-12-15-docker-command-diagram/1_1.png?1418747640

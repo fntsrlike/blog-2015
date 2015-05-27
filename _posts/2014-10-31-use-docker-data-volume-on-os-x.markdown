@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Use docker data volume on OS X"
-subtitle: "在 OS X 上，透過 boot2docker 使用 docker 的 data volume"
+title: "在 OS X 上，透過 boot2docker 使用 docker 的 data volume"
+subtitle: "Use docker data volume on OS X"
 date: 2014-10-31 22:05:15 +0800
 comments: true
 categories: [it]
@@ -22,7 +22,7 @@ Docker 1.3 在 2014-10-16 釋出。其中，在方便性上最讓人注目的更
 
 下圖是在 OS X 上，使用 boot2docker 建立 data volume 的示意圖，希望能幫助各位了解運作原理。
 
-![]({{ site.url }}/images/posts/2014-10-31-use-docker-data-volume-on-os-x-001.png){:width="512px" height="384px"}.
+![]({{ site.url }}/images/posts/2014-10-31-use-docker-data-volume-on-os-x-001.png)
 
 
 ## 前置作業
@@ -118,6 +118,8 @@ Data Volume 是 docker 在應用 LXC 時，一個非常重要的功能。在初�
 
 
 ## Reference
+<span/>
+
 - [boot2docker together with VirtualBox Guest Additions: How to mount /Users into boot2docker](https://medium.com/boot2docker-lightweight-linux-for-docker/boot2docker-together-with-virtualbox-guest-additions-da1e3ab2465c)
 - [Managing Data in Containers](https://docs.docker.com/userguide/dockervolumes/)
 - [DOCKER 1.3: SIGNED IMAGES, PROCESS INJECTION, SECURITY OPTIONS, MAC SHARED DIRECTORIES](https://blog.docker.com/2014/10/docker-1-3-signed-images-process-injection-security-options-mac-shared-directories/)

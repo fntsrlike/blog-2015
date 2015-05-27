@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Challenge of interdisciplinary learning"
-subtitle: "跨領域學習的挑戰"
+title: "跨領域學習的挑戰"
+subtitle: "Challenge of interdisciplinary learning"
 date: 2014-10-31 15:29:55 +0800
 comments: true
 categories: [general]
@@ -76,4 +76,4 @@ categories: [general]
 我會嘗試去面對與克服，去改變。<br/>
 期許自己，兩年後，能夠滿意自己這兩年的努力與進步。<br/>
 
-2014-10-31，寫於聖誕節之時，若虛。<br/>
+2014 年 10 月 31 日，寫於萬聖節之時，若虛。<br/>

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "24 years old"
-subtitle: "二十四歲生日"
+title: "二十四歲生日"
+subtitle: "24 years old"
 date: 2014-10-16 23:59:34 +0800
 comments: true
 categories: [general]

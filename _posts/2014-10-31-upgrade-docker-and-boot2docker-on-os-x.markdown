@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Upgrade docker and boot2docker on OS X"
-subtitle: "在 OS X 更新 Docker 和 Boot2docker"
+title: "在 OS X 更新 Docker 和 Boot2docker"
+subtitle: "Upgrade docker and boot2docker on OS X"
 date: 2014-10-31 17:59:58 +0800
 comments: true
 categories: [it]
@@ -12,13 +12,16 @@ tags: [docker]
 
 <!-- more -->
 
-## Step1: Turn Off Boot2docker
+## 更新步驟
+
+### Step 1: Turn Off Boot2docker
 
 {% highlight bash %}
 $ boot2docker stop
 {% endhighlight %}
 
-## Step2: Upgrade Boot2docker
+
+### Step 2: Upgrade Boot2docker
 
 依照您安裝 boot2docker 的方式進行更新
 
@@ -36,13 +39,14 @@ $ brew upgrade boot2docker
 2. 點擊安裝檔進行安裝。
 
 
-## Step3: Upgrade Boot2docker Image
+### Step 3: Upgrade Boot2docker Image
 
 按照「正常程序」升級映像檔即可。
 
 官網是說如果你是 `0.11.1-pre1` 之前的版本，建議刪除原有映像檔，但是這已經是很早之前的版本了。所以除非有什麼無法升級的意外，才需要「刪除原有映像檔」的方式更新。
 
 #### 正常程序
+
 {% highlight bash %}
 $ boot2docker stop
 $ boot2docker download
@@ -50,6 +54,7 @@ $ boot2docker up
 {% endhighlight %}
 
 #### 刪除原有映像檔
+
 {% highlight bash %}
 $ boot2docker stop
 $ boot2docker delete     // 注意：本指令會刪除現有的VM映像檔
@@ -58,7 +63,8 @@ $ boot2docker init
 $ boot2docker up
 {% endhighlight %}
 
-## Step4: Check Version
+
+### Step 4: Check Version
 確認你的版本是否都為最新版了。寫本文時最新版是1.3.0。
 
 {% highlight bash %}
@@ -79,5 +85,7 @@ Git commit (server): 4e9bbfa
 {% endhighlight %}
 
 ## Reference
-1. [Installing Docker on Mac OS X #Upgrading](http://docs.docker.com/installation/mac/#upgrading)
-2. [UPGRADE DOCKER AND BOOT2DOCKER ON OSX](http://blog.javabien.net/2014/03/17/upgrade-docker-and-boot2docker-on-osx/)
+<span/>
+
+- [Installing Docker on Mac OS X #Upgrading](http://docs.docker.com/installation/mac/#upgrading)
+- [UPGRADE DOCKER AND BOOT2DOCKER ON OSX](http://blog.javabien.net/2014/03/17/upgrade-docker-and-boot2docker-on-osx/)

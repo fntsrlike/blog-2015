@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Docker can't resolve github.com"
-subtitle: "Docker 無法解析 github.com"
+title: "Docker 無法解析 github.com"
+subtitle: "Docker can't resolve github.com"
 date: 2014-11-08 02:30:47 +0800
 comments: true
 categories: [it]
@@ -20,7 +20,7 @@ FAILED TO BOOTSTRAP
 
 <!-- more -->
 
-### via Ubuntu Package
+## via Ubuntu Package
 
 首先，打開 docker 的設定檔。
 
@@ -40,7 +40,7 @@ DOCKER_OPTS="--dns 8.8.8.8 --dns 8.8.4.4"
 $ sudo service docker restart
 {% endhighlight %}
 
-### via Binary
+## via Binary
 
 如果你是透過二進位檔案執行 Docker server，你只需在啟動 Docker daemon 時，加上 DNS 參數即可。如下：
 
@@ -51,8 +51,10 @@ $ sudo docker -d -D --dns 8.8.8.8 --dns 8.8.4.4 &
 
 `8.8.8.8`和`8.8.4.4`都是 Google 的 DNS，你也可以增修你喜歡的 DNS Server。
 
-# Reference
+## Reference
+<span />
+
 - [How To Install Discourse on Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-install-discourse-on-ubuntu-14-04)
-- [A fatal: unable to access ‘https://github.com/SamSaffron/pups.git/’: Could not resolve host: github.com](https://meta.discourse.org/t/afatal-unable-to-access-https-github-com-samsaffron-pups-git-could-not-resolve-host-github-com/18611)
+- [A fatal: unable to access ‘....’: Could not resolve host: github.com](https://meta.discourse.org/t/afatal-unable-to-access-https-github-com-samsaffron-pups-git-could-not-resolve-host-github-com/18611)
 - [Docker - Network calls fail during image build on corporate network](http://stackoverflow.com/questions/24151129/docker-network-calls-fail-during-image-build-on-corporate-network)
 - [鳥哥的 Linux 私房菜 - 第十九章、主機名稱控制者： DNS 伺服器](http://linux.vbird.org/linux_server/0350dns.php#DNS_resolver_file)
