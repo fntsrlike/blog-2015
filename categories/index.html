@@ -11,7 +11,7 @@ layout: default
     {% assign posts = site.categories[category.slug] %}
     <div class="classification">
       <h2>
-        <a href="{{ site.url }}categories/{{ category.slug }}/">{{ category.name }}</a>
+        <a href="{{ site.url }}/categories/{{ category.slug }}/">{{ category.name }}</a>
         <span class="post_number">({{ posts | size }})</span>
       </h2>
       <p>{{ category.description }}</p>
