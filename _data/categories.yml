@@ -1,6 +1,8 @@
 - slug: general
   name: General
   description: 一般文章，未分類
+  disqus_id: 3329167
 - slug: it
   name: "Information Technology"
   description: 技術類文章
+  disqus_id: 3743562

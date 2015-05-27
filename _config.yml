@@ -18,3 +18,7 @@ excerpt_separator: ""   # Workaround for http://blog.slaks.net/2013-08-09/jekyll
 # Assets
 vendor: /assets/vendor
 permalink: articles/:year/:month/:day/:title
+
+# Disqus Comments
+disqus_short_name: fntsr
+disqus_show_comment_count: true
