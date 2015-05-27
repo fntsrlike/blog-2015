@@ -127,22 +127,28 @@ blockquote:lang(en), blockquote:lang(en-us){
  */
 pre,
 code {
-    font-size: 15px;
     border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
+    border-radius: 5px;
+    font-size: .9em;
 }
 
 code {
+    background: rgba(0,0,0,.1);
+    color: #000000;
     padding: 1px 5px;
+    margin: 0 .5em;
 }
 
 pre {
     padding: 8px 12px;
     overflow-x: scroll;
+    background: #272822;
 
     > code {
+        background: #272822;
         border: 0;
+        color: #f8f8f2;
+        margin: 0;
         padding-right: 0;
         padding-left: 0;
     }
