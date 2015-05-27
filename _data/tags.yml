@@ -10,3 +10,6 @@
 - slug: web
   name: Web
   description: 有關網頁、網路應用程式開發的所有文章
+- slug: vps
+  name: VPS
+  description: 虛擬私人伺服器（Virtual Private Server）
