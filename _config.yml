@@ -22,3 +22,5 @@ permalink: articles/:year/:month/:day/:title
 # Disqus Comments
 disqus_short_name: fntsr
 disqus_show_comment_count: true
+
+google_analytics_tracking_id: UA-44721340-6
