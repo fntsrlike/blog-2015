@@ -6,6 +6,7 @@ date: 2014-11-07 15:15:59 +0800
 comments: true
 categories: [it]
 tags: [docker]
+description: "Discourse 是一個使用 Ruby on Rails 編寫的開源論壇程式。與傳統論壇以看版（Boards）為單位去收束文章的方式不同，他是直接使用分類（Categories）作為篩選，讓你去檢視你想要看的文章。這種方式比較適合作為文章性質相近的討論平台，然後再去做比較細的分類。例如：「新・g0v 後勤中心」就是討論有關零時政府的專案開發、或是「RailsFun」則專門針對 Ruby、Ruby on Rails 做手把手教學的討論與問答。"
 ---
 
 Discourse 是一個使用 Ruby on Rails 編寫的開源論壇程式。與傳統論壇以看版（Boards）為單位去收束文章的方式不同，他是直接使用分類（Categories）作為篩選，讓你去檢視你想要看的文章。這種方式比較適合作為文章性質相近的討論平台，然後再去做比較細的分類。例如：「[新・g0v 後勤中心](http://community.g0v.tw/)」就是討論有關零時政府的專案開發、或是「[RailsFun](http://railsfun.tw/)」則專門針對 Ruby、Ruby on Rails 做手把手教學的討論與問答。

@@ -6,6 +6,7 @@ date: 2014-10-31 22:05:15 +0800
 comments: true
 categories: [it]
 tags: [docker]
+description: "Docker 1.3 在 2014-10-16 釋出。其中，在方便性上最讓人注目的更新，除了 exec 指令以外，就是 boot2docker 在 Mac OS X 資料夾分享功能的改進，本文主要是針對後者去做講述。"
 ---
 
 Docker 1.3 在 2014-10-16 釋出。其中，在方便性上最讓人注目的更新，除了 exec 指令以外，就是 boot2docker 在 Mac OS X 資料夾分享功能的改進，本文主要是針對後者去做講述。

@@ -6,6 +6,7 @@ date: 2014-11-08 02:30:47 +0800
 comments: true
 categories: [it]
 tags: [docker]
+description: "這個問題的是 DNS 相關的錯誤，我們只要幫 Docker 指定 DNS Server 即可。解決辦法依照你安裝 Docker 的方式而異。"
 ---
 
 在 Ubuntu 環境下，使用 Docker 架設 Discourse 時遇到了問題，錯誤訊息如下：

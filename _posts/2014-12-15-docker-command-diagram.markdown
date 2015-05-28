@@ -6,6 +6,7 @@ date: 2014-12-15 00:45:26 +0800
 comments: true
 categories: [it]
 tags: [docker, web]
+description: "看到《Docker —— 從入門到實踐­》正體中文版「附錄一：命令查詢」裏有「一張圖總結 Docker 的命令」的圖，一時興起，就嘗試重畫一張圖，把所有指令都排進去。"
 ---
 
 [![][diagram]][diagram]{:target="_blank"}

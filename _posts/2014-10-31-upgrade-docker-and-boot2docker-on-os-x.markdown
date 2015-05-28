@@ -6,6 +6,7 @@ date: 2014-10-31 17:59:58 +0800
 comments: true
 categories: [it]
 tags: [docker]
+description: "在 OS X 安裝 Docker 和 Boot2docker 有兩種方式，一種是下載 *.pkg 進行安裝，一種是使用 homebrew 進行安裝。本文前面會描述兩者更新的方式，然後說明如何把 Boot2docker 的 VM Image 更新，也就是把 Docker Server 更新到新版。"
 ---
 
 在 OS X 安裝 Docker 和 Boot2docker 有兩種方式，一種是下載 *.pkg 進行安裝，一種是使用 homebrew 進行安裝。本文前面會描述兩者更新的方式，然後說明如何把 Boot2docker 的 VM Image 更新，也就是把 Docker Server 更新到新版。
