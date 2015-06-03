@@ -5,7 +5,7 @@ subtitle: "How to deploy PHP projects with docker"
 date: 2014-10-18 17:00:00 +0800
 comments: true
 categories: [it]
-tags: [php, docker, web]
+tags: [php, docker, web, talks]
 description: "本簡報是為PHPConf2014議程所準備的，但陸續會在針對簡報做維護，並且在這邊回答會眾對於當天大會聽講但是沒有聽懂的部分。"
 ---
 

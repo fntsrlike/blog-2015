@@ -13,3 +13,9 @@
 - slug: vps
   name: VPS
   description: 虛擬私人伺服器（Virtual Private Server）
+- slug: talks
+  name: Talks
+  description: 演講、講座、課程、經驗分享
+- slug: cloud
+  name: Cloud
+  description: 雲、雲端、雲端運算、雲端科技。總之，就是各種雲
