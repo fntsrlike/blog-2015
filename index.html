@@ -16,7 +16,7 @@ layout: default
           {% else %}
             {{ post.content | strip_html | truncatewords:100 }}
           {% endif %}
-          <a rel="full-article" href="{{post.url}}">Read on →</a>
+          <p class="post-more"><a rel="full-article" href="{{post.url}}">Read on →</a></p>
         </article>
       </div>
     {% endfor %}
