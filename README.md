@@ -1,8 +1,10 @@
 # 深藏若虛
 
+敝人部落格已經改用 wordpress 架設，而本倉庫的網址已經轉向 jekyll.fntsr.tw 作為封存。如要拜訪敝人的部落格，請使用 [https://blog.fntsr.tw/](https://blog.fntsr.tw/)
+
 ### 用途
 
-本 Repo 為敝人部落格 [深藏若虛](http://blog.fntsr.tw/) 的 Jekyll 資料，並由 Github 提供空間放置其產生的靜態頁面。
+本 Repo 為敝人部落格 [深藏若虛](http://jekyll.fntsr.tw/) 的 Jekyll 資料，並由 Github 提供空間放置其產生的靜態頁面。
 
 ### 版權
 
